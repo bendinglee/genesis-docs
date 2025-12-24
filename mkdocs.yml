@@ -1,0 +1,27 @@
+site_name: Genesis Project Docs
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - toc:
+      permalink: true
+plugins:
+  - search
+nav:
+  - Home: index.md
+  - Genesis Blueprint: "The Genesis Project_ A Blueprint for a Revolutionary Free AI.md"
+  - UI/UX Design: addictive_ui_ux_design.md
+  - AGI/ASI Architecture: "AGI and ASI Architecture Research Findings.md"
+  - Decentralized AI: "Decentralized AI Research Findings.md"
+  - Revolutionary Free AI Architecture: revolutionary_free_ai_architecture.md
+  - Technical Roadmap: "Technical Implementation Roadmap.md"
+  - Tesla Wireless Power Findings: "Tesla Wireless Power Research Findings.md"

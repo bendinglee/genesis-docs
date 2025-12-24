@@ -1,0 +1,10 @@
+services:
+  nginx:
+    image: nginx:alpine
+    container_name: genesis_docs_nginx
+    restart: unless-stopped
+    ports:
+      - "8088:80"
+    volumes:
+      - /var/www/genesis-docs:/usr/share/nginx/html:ro
+      - ./default.conf:/etc/nginx/conf.d/default.conf:ro
